@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вывод данных</title>
+</head>
+<body>
+<h1>Результаты таблицы</h1>
+<ul>
+    {%for user in users%}
+    <li>{{user.name}}={{user.email}}</li>
+    {%endfor%}
+</ul>
+<a href="/"><button>Вернуться на главную</button></a>
+</body>
+</html>

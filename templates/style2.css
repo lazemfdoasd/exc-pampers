@@ -1,0 +1,189 @@
+body{
+    background-image: url("img/clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Poppins, sans-serif;
+    font-weight: 900
+}
+
+
+#square{
+    position: relative;
+    left: 625px;
+    top: 220px;
+    width: 100px;
+    height: 100px;
+    padding: 250px;
+}
+
+.pswd{
+    position: absolute;
+    right: 730px;
+    bottom: 622px;
+}
+
+.usn{
+    position: absolute;
+    right: 730px;
+    bottom: 820px;
+    background: transparent;
+}
+
+.emd{
+    position: absolute;
+    background: transparent;
+    right: 730px;
+    bottom: 720px;
+}
+
+label{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+button{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    width: 500px;
+    height: 75px;
+    border: 5px white;
+    border-radius: 40px;
+    left: 675px;
+    bottom: 50px;
+}
+
+input[type="text"]{
+    width: 380px;
+    height: 28px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 10px;
+    outline: none;  
+    
+}
+
+input[type="password"]{
+    width: 380px;
+    height: 28px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 10px;
+    outline: none;
+    
+}
+
+#Frg{
+    position: relative;
+    font-size: 15px;
+    top: -125px;
+    right: 170px;
+}
+
+#Rmbm{
+    position: relative;
+    font-size: 15px;
+    top: -125px;
+    left: -20px;
+}
+
+#Dhc{
+    font-size: 17px;
+    position: relative;
+    top: 25px;
+    left: -75px;
+    
+}
+
+input[type="checkbox"]{
+    position: relative;
+    bottom: 123px;
+    left: -23px;
+}
+
+a{
+    color:  white;
+}
+
+#Registration{
+    position: relative;
+    bottom: 510px;
+    left: 320px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+#user{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 418px;
+    right: 255px;
+}
+
+#zamok{
+    position: relative;
+    width: 81px;
+    height: 72px;
+    bottom: 206px;
+    right: 327px;
+}
+
+#email{
+    position: relative;
+    width: 27px;
+    height: 27px;
+    bottom: 330px;
+    right: 385px;
+}
+
+input, select, textarea{
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+}
+  
+li:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    border-radius: 5px;
+    background: white;
+    width: 100%;
+    height: 3px;
+    bottom: -6px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+
+li:hover:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+li:hover {
+    transition: all .7s;
+    color: purple;
+}
+
+#logo{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: -18px;
+    left:30px;
+}
